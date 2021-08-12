@@ -1,0 +1,30 @@
+{
+  "name": "githubapi",
+  "version": "1.0.0",
+  "description": "This is GithubApi project with Redis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Authentic48/GithubApi.git"
+  },
+  "keywords": [
+    "Github",
+    "Redis"
+  ],
+  "author": "FallJr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Authentic48/GithubApi/issues"
+  },
+  "homepage": "https://github.com/Authentic48/GithubApi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.12",
+    "redis": "^3.1.2"
+  }
+}
